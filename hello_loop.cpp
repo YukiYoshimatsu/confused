@@ -11,9 +11,9 @@ int main ()
   int i;   //The index variable for the loop
 
   //Loop will repeat 10 times:
-  for (i = 0; i < 10; i++)
+  for (i = 0; i < 14; i++)
   {
-    cout << "Hello, World!\n";
+    cout << "I love C++\n";
   }
   return 0;
 }
