@@ -1,0 +1,13 @@
+#Yusef Wray
+#Yusef.Wray25@myhunter.cuny.edu
+#Creates a directory, projectFiles. 
+#Creates 3 additional directories
+#(as subdirectories of projectFiles):
+#source, data, and results. 
+
+#Shell script:  creates directories for project
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results
