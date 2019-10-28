@@ -1,0 +1,10 @@
+#Yusef Wray
+#Yusef.Wray25@myhunter.cuny.edu
+#Sample program that loops 
+ADDI $s0, $zero, 0 
+ADDI $s1, $zero, 2  
+ADDI $s2, $zero, 20
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  
