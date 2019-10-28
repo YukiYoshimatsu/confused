@@ -1,7 +1,7 @@
 #Yusef Wray
 #Yusef.Wray25@myhunter.cuny.edu
 #Sample program that loops 
-ADDI $s0, $zero, 2 #set s0 to 2
+ADDI $s0, $zero, 0 #set s0 to 0
 ADDI $s1, $zero, 2  #use as counter, $s0
 ADDI $s2, $zero, 20
 AGAIN: ADD $s0, $s0, $s1
