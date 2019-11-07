@@ -3,7 +3,6 @@
 //Date: November 2019
 // C++ first programs
 
-//Note: celsius = (farenheit -32)*(5/9)
 #include <iostream>
 using namespace std;
 
@@ -15,29 +14,43 @@ int main ()
 	cin >> x;
 	cout << "Enter the number of columns: ";
 	cin >> y;
+	int z;
+	z=1;
 	int i;
 	int j;
-	int z;
-	z=0;
+	i=0;
+	j=0;
 	for (i=0; i <x; i++)
 	{
-		
-		for (j=0; j <y; j++)
+		if (i%2==0)
 		{
-			if (z%2 == 0 or z == 0)
-			{
-				cout << "1";
-				z = z+1;
-			}
-			else
-			{
-				cout << "0";
-				z = z-1;
-			}	 
-			
+			z=1;
+			cout << z;
+		}
+		else
+		{
+			z=0;
+			cout << z;
+		}
+
+		for (j=1; j <y; j++)
+		{
+				if (z==0)
+				{
+					z=1;
+					cout << z;
+				}
+
+				else
+				{
+					z=0;
+					cout << z;
+				}		
+	
 		}
 		cout << "\n";
 	}
 	
 	return 0;
+
 }

@@ -9,15 +9,15 @@ using namespace std;
 
 int main ()
 {
-	int farenheit;
+	float farenheit;
 	float celsius;
-	int limit; 
+	float limit; 
 	float second;
 	cout << "Enter a number: ";
 	cin >> farenheit;
 	limit = farenheit - 32;
-	second = 5.0/9.0;
-	celsius = limit*second;
+	second = 5.00/9.00;
+	celsius = (limit*second)+0.001;
 	cout << celsius;
 	return 0;
 }
