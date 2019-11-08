@@ -11,24 +11,24 @@ int main ()
 	float grade;
 	cout << "Enter your average grade: ";
 	cin >> grade;
-	if (grade < 60.0)
+	if (grade < 60.00)
 	{
-		cout << "Your letter grade is F"
+		cout << "Your letter grade is F";
 	}
 
-	else if ((grade > 60.0) and (grade < 80.0))
+	else if ((grade > 60.00) && (grade < 80.00))
 	{
-		cout << "Your letter grade is C or D"
+		cout << "Your letter grade is C or D";
 	}
 
-	else if ((grade > 80.0) and (grade < 90.0))
+	else if ((grade > 80.00) && (grade < 90.00))
 	{
-		cout << "Your letter grade is B"
+		cout << "Your letter grade is B";
 	}
 	
 	else
 	{
-		cout << "Your letter grade is A"
+		cout << "Your letter grade is A";
 
 	}
 	
