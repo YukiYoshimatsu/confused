@@ -6,26 +6,22 @@
 #include <iostream>
 using namespace std;
 
+
 int main ()
 {
-	float dol;
+	double salary;
 	
 	cout << "Please enter your salary: ";
-	cin >> dol;
+	cin >> salary;
 	
-	while (dol < 0)
+	while (salary <= 0)
 	{
-		cout << "Entered a negative number ";
-		dol = 0;
+		cout << "Entered a negative number. ";
 		cout << "Please enter your salary: ";
-		cin >> dol;
-		if (dol > 0)
-		{
-			break;
-		}
-
-	cout << "Your weekly salary is: "+ dol;
-	}	
-	cout << "Your initial amount has been entirely spent";
+		cin >> salary;
+	}
+	cout << "Your weekly salary is: $" ;	
+	cout << salary;
 	return 0;
 }
+
